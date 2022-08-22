@@ -2,11 +2,14 @@ public class CalculatorTest3 {
     public static void main(String[] args) {
 
         Calculator3 calc = new Calculator3();
-
-        //Use the Calculator object and arguments supplied to findTotal()
-        //to print the total for each person
-
-
+        calc.findTotal(10.0, "James");
+        calc.findTotal(12.0, "Kevin");
+        calc.findTotal(9.0, "Kylee");
+        calc.findTotal(8.0, "Martha");
+        calc.findTotal(7.0, "Cynthia");
+        calc.findTotal(15.0, "Alex");
+        calc.findTotal(11.0, "Chris");
+        calc.findTotal(30.0, "Athena");
 
        /*This is what everyone owes before tax and tip:
        Person 1: $10
